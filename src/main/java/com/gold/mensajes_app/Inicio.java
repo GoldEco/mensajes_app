@@ -17,7 +17,7 @@ public class Inicio {
         
         Conexion conectarse = new Conexion();
         
-        try(Connection cnx = conectarse.get_connection()){
+        try(Connection varConec = conectarse.get_connection()){
             
             
         }catch(Exception e){
