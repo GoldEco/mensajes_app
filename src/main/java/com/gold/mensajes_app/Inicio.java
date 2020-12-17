@@ -20,9 +20,9 @@ public class Inicio {
         try(Connection varConec = conectarse.get_connection()){
             
             
-        }catch(Exception e){
+        }catch(Exception objDeExcepcion){
             
-            System.out.println(e);
+            System.out.println(objDeExcepcion);
             
         }
 
